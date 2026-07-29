@@ -1,6 +1,6 @@
 name: jpush_flutter_android
 description: "A Flutter plugin that integrates the Android vendor channel SDK of JPush."
-version: 1.0.1
+version: 1.0.2
 homepage: https://github.com/LiWenHui96
 repository: https://github.com/LiWenHui96/jpush_flutter_android
 issue_tracker: https://github.com/LiWenHui96/jpush_flutter_android/issues
