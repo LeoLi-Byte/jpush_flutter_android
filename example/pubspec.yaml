@@ -5,7 +5,7 @@ description: "Demonstrates how to use the jpush_flutter_android plugin."
 publish_to: 'none' # Remove this line if you wish to publish to pub.dev
 
 environment:
-  sdk: ^3.10.9
+  sdk: ^3.11.5
 
 # Dependencies specify other packages that your package needs in order to work.
 # To automatically upgrade your package dependencies to the latest versions
@@ -17,7 +17,7 @@ dependencies:
   flutter:
     sdk: flutter
 
-  jpush_flutter: ^3.4.8
+  jpush_flutter: ^3.5.7
   jpush_flutter_android:
     # When depending on this package from a real application you should use:
     #   jpush_flutter_android: ^x.y.z

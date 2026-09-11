@@ -1,4 +1,4 @@
-package com.jpush.flutter.android.example
+package org.leoli.plugin.jpush.flutter.android.example
 
 import io.flutter.embedding.android.FlutterActivity
 

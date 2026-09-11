@@ -6,7 +6,7 @@ void main() {
   TestWidgetsFlutterBinding.ensureInitialized();
 
   MethodChannelJPushFlutterAndroid platform = MethodChannelJPushFlutterAndroid();
-  const MethodChannel channel = MethodChannel('jpush_flutter_android');
+  const MethodChannel channel = MethodChannel('jPush_flutter_android');
 
   setUp(() {
     TestDefaultBinaryMessengerBinding.instance.defaultBinaryMessenger.setMockMethodCallHandler(channel, (

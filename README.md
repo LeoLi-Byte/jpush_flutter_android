@@ -1,7 +1,7 @@
 # jpush_flutter_android
 
 [![pub package](https://img.shields.io/pub/v/jpush_flutter_android)](https://pub.dev/packages/jpush_flutter_android)
-[![GitHub license](https://img.shields.io/github/license/LiWenHui96/jpush_flutter_android?label=协议&style=flat-square)](https://github.com/LiWenHui96/jpush_flutter_android/blob/master/LICENSE)
+[![GitHub license](https://img.shields.io/github/license/LeoLi-Byte/jpush_flutter_android?label=协议&style=flat-square)](https://github.com/LeoLi-Byte/jpush_flutter_android/blob/master/LICENSE)
 
 > 集成极光推送的 Android 厂商通道 SDK 的 Flutter 插件。
 

@@ -18,7 +18,7 @@ void main() {
 
   test('getPlatformVersion', () async {
     JPushFlutterAndroid jpushFlutterAndroidPlugin = JPushFlutterAndroid();
-    MethodChannelJPushFlutterAndroid fakePlatform = MethodChannelJPushFlutterAndroid();
+    MockJPushFlutterAndroidPlatform fakePlatform = MockJPushFlutterAndroidPlatform();
     JPushFlutterAndroidPlatform.instance = fakePlatform;
 
     expect(await jpushFlutterAndroidPlugin.getPlatformVersion(), '42');

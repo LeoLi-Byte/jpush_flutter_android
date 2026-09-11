@@ -1,4 +1,4 @@
-package com.jpush.flutter.android
+package org.leoli.plugin.jpush.flutter.android
 
 import io.flutter.plugin.common.MethodCall
 import io.flutter.plugin.common.MethodChannel
