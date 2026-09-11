@@ -1,3 +1,10 @@
+## 1.1.0
+
+* Added support for jpush_flutter 3.5.7.
+* Migrated the Android build scripts from Groovy to Kotlin DSL (`build.gradle.kts`).
+* Renamed the Android package from `com.jpush.flutter.android` to `org.leoli.plugin.jpush.flutter.android`.
+* The Huawei AGConnect plugin and the Huawei/Honor Maven repositories are now configured only when the corresponding vendor channel is enabled.
+
 ## 1.0.2
 
 * Added support for jpush_flutter 3.4.8.

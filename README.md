@@ -13,6 +13,7 @@
 
 | jpush_flutter | jpush_flutter_android |
 |:-------------:|:---------------------:|
+| 3.5.7+        | 1.1.0                 |
 | 3.4.8+        | 1.0.2                 |
 | 3.4.5+        | 1.0.1                 |
 | 3.4.3+        | 0.0.10+               |
@@ -23,6 +24,11 @@
 | 3.1.9         | **不建议使用**          |
 | 3.1.8         | 0.0.3                 |
 | 3.0.9-3.1.7   | 0.0.1                 |
+
+> **1.1.0 升级说明**
+>
+> * Android 构建脚本已由 Groovy 迁移至 Kotlin DSL（`build.gradle.kts`），`pubspec.yaml` 的配置方式保持不变。
+> * 插件 Android 包名由 `com.jpush.flutter.android` 变更为 `org.leoli.plugin.jpush.flutter.android`。插件注册由 Flutter 自动完成，通常无需修改业务代码；若原生工程直接引用过旧包名，请同步替换。
 
 ## 快速开始
 
