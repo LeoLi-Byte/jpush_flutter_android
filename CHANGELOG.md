@@ -1,3 +1,8 @@
+## 1.1.1
+
+* Added support for jpush_flutter 3.5.8.
+* Updated JPush Android SDK to version 6.2.1.
+
 ## 1.1.0
 
 * Added support for jpush_flutter 3.5.7.
