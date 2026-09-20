@@ -1,4 +1,4 @@
-package org.leoli.plugin.jpush.flutter.android
+package org.leoli.plugin.jpush_flutter_android
 
 import io.flutter.embedding.engine.plugins.FlutterPlugin
 import io.flutter.plugin.common.MethodCall

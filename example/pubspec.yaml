@@ -16,7 +16,6 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-
   jpush_flutter: ^3.5.8
   jpush_flutter_android:
     # When depending on this package from a real application you should use:

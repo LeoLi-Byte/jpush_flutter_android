@@ -47,7 +47,7 @@ val jPushOppoAppSecret: String = oppo.string("app_secret")
 val jPushHonorEnable: Boolean = honor.flag("enable")
 val jPushHonorAppId: String = honor.string("app_id")
 
-group = "org.leoli.plugin.jpush.flutter.android"
+group = "org.leoli.plugin.jpush_flutter_android"
 version = "1.0-SNAPSHOT"
 
 buildscript {
@@ -301,7 +301,7 @@ plugins {
 if (jPushHuaweiEnable) apply { plugin("com.huawei.agconnect") }
 
 android {
-    namespace = "org.leoli.plugin.jpush.flutter.android"
+    namespace = "org.leoli.plugin.jpush_flutter_android"
 
     compileSdk = 36
 

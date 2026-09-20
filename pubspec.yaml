@@ -27,5 +27,5 @@ flutter:
   plugin:
     platforms:
       android:
-        package: org.leoli.plugin.jpush.flutter.android
+        package: org.leoli.plugin.jpush_flutter_android
         pluginClass: JPushFlutterAndroidPlugin
