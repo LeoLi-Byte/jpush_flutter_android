@@ -1,3 +1,7 @@
+## 1.1.2
+
+* Renamed the Android package from `org.leoli.plugin.jpush.flutter.android` to `org.leoli.plugin.jpush_flutter_android`.
+
 ## 1.1.1
 
 * Added support for jpush_flutter 3.5.8.
