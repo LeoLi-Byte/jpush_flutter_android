@@ -1,0 +1,3 @@
+# 不发布到 pub.dev 的文件（语法同 .gitignore）
+CLAUDE.md
+.claude/
