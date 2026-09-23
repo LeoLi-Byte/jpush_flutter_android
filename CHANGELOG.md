@@ -1,3 +1,8 @@
+## 1.1.3
+
+* Added a `.pubignore` file to exclude `CLAUDE.md` and the `.claude/` directory from the pub.dev package.
+* Added a GitHub Actions workflow for automated releases, triggered by tag pushes, which extracts the changelog entry and creates a GitHub Release.
+
 ## 1.1.2
 
 * Renamed the Android package from `org.leoli.plugin.jpush.flutter.android` to `org.leoli.plugin.jpush_flutter_android`.
