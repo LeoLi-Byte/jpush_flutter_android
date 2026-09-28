@@ -13,7 +13,8 @@
 
 | jpush_flutter | jpush_flutter_android |
 |---------------|-----------------------|
-| 3.5.8+        | 1.1.1+                |
+| 3.5.8+        | 1.1.4+                |
+| 3.5.8+        | 1.1.1-1.1.3           |
 | 3.5.7+        | 1.1.0                 |
 | 3.4.8+        | 1.0.2                 |
 | 3.4.5+        | 1.0.1                 |
@@ -111,7 +112,11 @@ android {
 
 #### 配置代码混淆
 
-代码混淆已集成在插件内，无须额外配置。
+代码混淆规则已集成在插件内（通过 consumer ProGuard 规则自动合并），无须额外配置。
+
+宿主 App 开启 `minifyEnabled true`（R8）后无需任何处理：JPush 及各厂商通道的类由插件发布的 `-keep` 规则整体保护，R8 的优化与混淆均可正常工作。
+
+> **注意**：`1.1.3` 及以下版本的 consumer 规则中包含 `-dontoptimize` / `-dontpreverify` 全局选项，在 AGP 8.x 下会导致构建失败（`Global keep option -dontoptimize was specified as a consumerProguardFile`），请升级到 `1.1.4+`。升级到 `1.1.4+` 后请勿在宿主配置中补加这两个选项——是否优化由宿主构建配置自行决定，JPush SDK 在 R8 优化下可正常工作。
 
 #### 配置权限
 

@@ -1,3 +1,7 @@
+## 1.1.4
+
+* Fixed a build failure on AGP 8.x (`Global keep option -dontoptimize was specified as a consumerProguardFile`): removed the global options `-dontoptimize` and `-dontpreverify` from the consumer ProGuard rules. These options control the host app's optimization pipeline and are not allowed in consumer configuration files. JPush and the vendor-channel SDKs remain fully protected by the shipped `-keep` rules; host apps using `minifyEnabled true` (R8) need no additional configuration.
+
 ## 1.1.3
 
 * Added a `.pubignore` file to exclude `CLAUDE.md` and the `.claude/` directory from the pub.dev package.
