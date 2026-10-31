@@ -6,13 +6,15 @@
 -dontwarn cn.jiguang.**
 -keep class cn.jiguang.** { *; }
 
-# JPush 华为
+# 通用配置（全局生效，华为、荣耀等厂商渠道共用）
 -ignorewarnings
 -keepattributes *Annotation*
 -keepattributes Exceptions
 -keepattributes InnerClasses
 -keepattributes Signature
 -keepattributes SourceFile,LineNumberTable
+
+# JPush 华为
 -keep class com.hianalytics.android.**{*;}
 -keep class com.huawei.updatesdk.**{*;}
 -keep class com.huawei.hms.**{*;}
@@ -41,19 +43,4 @@
 -keep class com.mcs.** { *; }
 
 # JPush 荣耀
--ignorewarnings
--keepattributes *Annotation*
--keepattributes Exceptions
--keepattributes InnerClasses
--keepattributes Signature
--keepattributes SourceFile,LineNumberTable
 -keep class com.hihonor.push.**{*;}
-
-#JPush 蔚来
--ignorewarnings
--keepattributes *Annotation*
--keepattributes Exceptions
--keepattributes InnerClasses
--keepattributes Signature
--keepattributes SourceFile,LineNumberTable
--keep class com.skyui.push.**{*; }
