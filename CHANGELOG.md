@@ -1,3 +1,8 @@
+## 1.1.5
+
+* Updated JPush Android SDK to version 6.3.0.
+* Optimized the consumer ProGuard rules: consolidated the duplicated common options (`-ignorewarnings` / `-keepattributes`) shared by the vendor channels into global rules, removed the redundant declarations from the Huawei and Honor sections, and removed the legacy NIO channel rules.
+
 ## 1.1.4
 
 * Fixed a build failure on AGP 8.x (`Global keep option -dontoptimize was specified as a consumerProguardFile`): removed the global options `-dontoptimize` and `-dontpreverify` from the consumer ProGuard rules. These options control the host app's optimization pipeline and are not allowed in consumer configuration files. JPush and the vendor-channel SDKs remain fully protected by the shipped `-keep` rules; host apps using `minifyEnabled true` (R8) need no additional configuration.
