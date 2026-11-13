@@ -1,3 +1,8 @@
+## 1.1.6
+
+* Added support for jpush_flutter 3.6.1+.
+* Updated JPush Android vendor-channel SDKs to version 6.3.1. The JPush/JCore core dependencies and the Jiguang Maven repository are provided by the companion `jpush_flutter` package and require no extra configuration in this plugin.
+
 ## 1.1.5
 
 * Updated JPush Android SDK to version 6.3.0.
