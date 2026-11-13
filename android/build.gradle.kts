@@ -349,7 +349,7 @@ dependencies {
     testImplementation("org.jetbrains.kotlin:kotlin-test")
     testImplementation("org.mockito:mockito-core:5.0.0")
 
-    val jPushVersion = "6.3.0"
+    val jPushVersion = "6.3.1"
 
     // 接入 华为 厂商
     if (jPushHuaweiEnable) implementation("cn.jiguang.sdk.plugin:huawei:${jPushVersion}")
